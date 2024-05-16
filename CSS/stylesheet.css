@@ -72,7 +72,7 @@ header {
     top: 0;
 }
 
-nav {
+.header-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -149,15 +149,22 @@ h1 {
 
 .features-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    max-width: 100%;
     gap: 20px;
 }
 
 .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
     padding: 50px;
-    min-width: 350px;
-    max-width: 400px;
 }
 
 .feature p {
@@ -177,8 +184,12 @@ h1 {
 }
 
 .testimonial {
-    min-width: 350px;
-    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
     color: #444;
 }
 
@@ -190,18 +201,31 @@ h1 {
 
 .person {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     margin-top: 15px;
 }
 
 .person img {
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .person-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     margin-left: 10px;
 }
 
@@ -215,13 +239,20 @@ h1 {
 }
 
 #signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     padding: 40px 0;
 }
 
 .signup-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: space-around;
     background: #3882f6;
     width: 50%;
     margin: auto;
@@ -232,23 +263,47 @@ h1 {
 }
 
 .signup h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 30%;
     margin: 0 0 5px 0;
     color: #fff;
     font-weight: 500;
-    text-align: left;
+
 }
 
 .signup p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 30%;
     color: #ddd;
     font-size: 18px;
 }
 
 .signup input[type="button"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 30%;
     border: 2px solid #fff;
     padding: 7px 23px;
 }
 
 .signup input[type="button"]:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 30%;
     background: #fff;
     color: black;
 }
